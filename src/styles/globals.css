@@ -3,3 +3,27 @@
 body{
   @apply bg-gray-900;
 }
+
+/* Webkit browsers (Chrome, Safari, newer versions of Edge) */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1f2937; /* dark gray background */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fcd34d; /* amber color to match your theme */
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #f59e0b; /* darker amber on hover */
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #fcd34d #1f2937;
+}
