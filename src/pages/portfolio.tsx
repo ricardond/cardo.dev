@@ -2,7 +2,7 @@ import Card from "@/components/Card";
 
 export default function Projetos(){
     return(
-        <section className="flex flex-col justify-center items-center flex-wrap gap-5 mt-20">
+        <section className="flex flex-col justify-center items-center flex-wrap gap-5 mt-20 mb-20">
             <h1 className="text-3xl text-amber-300 font-bold">Meu Portfólio</h1>
             <div className="flex flex-wrap gap-5 w-full justify-center items-center">
                 <Card titulo="Onepedia" desc="Site sobre assuntos relacionados a Onepiece." image="https://onepedia.netlify.app/img/background.jpg" abrirProjeto="https://onepedia.netlify.app/"/>
