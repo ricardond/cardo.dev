@@ -1,7 +1,7 @@
 export default function Habilidades(){
     const webSkills = {
         frontend: ['React', 'Next.js', 'JavaScript', 'TypeScript', 'HTML', 'CSS', 'Tailwind CSS'],
-        backend: ['Node.js', 'Python', 'Express', 'MongoDB', 'SQL']
+        backend: ['Node.js', 'Python', 'Django', 'PHP', 'SQL']
     };
     
     const gameDevSkills = ['Godot Engine', 'GDScript', 'Game Design', '2D Animation'];
