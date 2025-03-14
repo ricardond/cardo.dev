@@ -4,12 +4,6 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Página Inicial</title>
-        <meta name="description" content="Descrição da página inicial" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        {/* Adicione outras meta tags aqui */}
-      </Head>
       <section className="flex flex-col-reverse justify-center items-center flex-wrap gap-5 mt-25"> 
         <div className="flex flex-col flex-wrap">
           <h1 className="text-amber-300 text-3xl font-bold">Olá! Me chamo Ricardo Dias, eu desenvolvo coisas!</h1>
